@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3ac3c;
+}
+.Quadrado1 {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 200px;
+  height: 200px;
+  background: #1a4341;
+}
+
+.Quadrado2 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  width: 100px;
+  height: 100px;
+  background: #998235;
+}
+
+.Quadrado3 {
+  width: 50px;
+  height: 50px;
+  background: #f3ac3c;
+}
