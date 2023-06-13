@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 30px;
+  padding: 20px; */
+  background: #62306d;
+  height: 100vh;
+}
+
+.columns1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 0 0 50px 50px;
+  background: #f7ec7d;
+}
+.columns2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px 50px 0 0;
+  background: #f7ec7d;
+  margin: 0 0 200px 0;
+}
+.columns3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 0 0 50px 50px;
+  background: #f7ec7d;
+}
